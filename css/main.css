@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+#displayBtn {
+    padding: .5rem 1.25rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3B5998;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#displayBtn:hover {
+    background-color: #8B9DC3;
+}
+
+#displayBtn+div {
+    margin: 1.5rem 0;
+}
+
+#taskTable th, #taskTable td {
+    padding: .5rem 1rem;
+}
+
+#taskTable th {
+    text-transform: uppercase;
+}
+
+#taskTable td {
+    text-align: left;
+}
+
+#taskTable tr:nth-child(even) {
+    background-color: #f7f7f7;  
+}
+
+#taskTable tr:nth-child(odd) {
+    background-color: #dfe3ee;  
+}
+
+#taskTable tr:first-child {
+    background-color: #3B5998;
+    color: #fff;
+}
+
+#taskTable td.tagList li {
+    margin: 0 0 0 .75rem;
+}
+
+#taskTable td.isComplete {
+    text-align: center;
+    font-size: x-large;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-times {
+    color: red;
+}
